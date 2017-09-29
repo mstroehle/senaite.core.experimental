@@ -11,7 +11,7 @@ def setupHandler(context):
     """SENAITE CORE setup handler
     """
 
-    if context.readDataFile('senaite.lcore.txt') is None:
+    if context.readDataFile('senaite.core.txt') is None:
         return
 
     logger.info("SENAITE CORE setup handler [BEGIN]")

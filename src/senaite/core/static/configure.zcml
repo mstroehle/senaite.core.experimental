@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="senaite.core">
+
+  <!-- Register static directory for images -->
+  <browser:resourceDirectory
+      name="senaite.core.static.images"
+      directory="images"
+      layer="senaite.core.interfaces.ISenaiteCORE"
+      />
+
+</configure>

@@ -3,6 +3,7 @@
 # Copyright 2017 SEANAITE
 
 import logging
+
 from zope.i18nmessageid import MessageFactory
 
 # Defining a Message Factory for when this product is internationalized.

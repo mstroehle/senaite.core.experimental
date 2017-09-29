@@ -11,6 +11,9 @@
 
   <five:registerPackage package="." initialize=".initialize"/>
 
+  <!-- Package Includes -->
+  <include package=".static"/>
+
   <!-- Installation Profile -->
   <genericsetup:registerProfile
       name="default"
